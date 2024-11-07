@@ -1,0 +1,258 @@
+/* ============================= */
+/*        Navbar Estilos         */
+/* ============================= */
+
+/* Estilo para o fundo da navbar */
+.navbar {
+    background-color: black; /* Cor de fundo escura */
+    color: white;
+}
+
+/* Nome "Monkey Kush" na navbar */
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: white !important; /* Cor branca */
+    font-weight: 500;
+}
+
+.navbar-brand:hover {
+    color: #f1f1f1 !important; /* Ajuste de cor ao passar o mouse */
+}
+
+/* Links da navbar e dropdown */
+.navbar .nav-link,
+.navbar .dropdown-toggle {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white !important;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 20px;
+    border-radius: 50px; /* Bordas arredondadas */
+    margin-right: 10px;
+}
+
+.navbar .nav-link:hover,
+.navbar .dropdown-toggle:hover {
+    background-color: #388E3C; /* Cor de fundo ao passar o mouse */
+}
+
+/* Itens do dropdown */
+.navbar .dropdown-menu {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    border-radius: 10px;
+}
+
+.navbar .dropdown-item {
+    color: white;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar .dropdown-item:hover {
+    background-color: #388E3C;
+    color: white;
+}
+
+/* ============================= */
+/*          Botões Navbar        */
+/* ============================= */
+
+.botao_navbar {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Efeito de transição */
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaçamento entre ícone e texto */
+    margin-right: 15px;
+}
+
+.botao_navbar:hover {
+    background-color: #388E3C; /* Cor de fundo ao passar o mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efeito de sombra */
+}
+
+.botao_navbar img {
+    width: 24px; /* Tamanho do ícone */
+    height: 24px;
+    border-radius: 50%; /* Ícone redondo */
+}
+
+/* ============================= */
+/*         Campo de Busca        */
+/* ============================= */
+
+form .form-control {
+    border-radius: 50px; /* Bordas arredondadas */
+    border: none; /* Remove a borda padrão */
+    padding: 10px 20px;
+    background-color: #f5f5f5; /* Fundo cinza claro */
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    outline: none; /* Remove o contorno ao focar */
+    width: 250px; /* Largura do campo */
+}
+
+/* Foco no campo de busca */
+form .form-control:focus {
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra mais intensa */
+}
+
+/* Botão "Procurar" */
+form .botao_navbar {
+    border-radius: 50px;
+    background-color: #28a745; /* Cor verde */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form .botao_navbar:hover {
+    background-color: #218838; /* Cor ao passar o mouse */
+}
+
+/* ============================= */
+/*           Fundo Página        */
+/* ============================= */
+
+.fundo {
+    background-color: white;
+}
+
+/* ============================= */
+/*         Estilo Principal      */
+/* ============================= */
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    color: black; /* Cor do texto */
+    text-align: center;
+    text-transform: uppercase; /* Texto em maiúsculas */
+    letter-spacing: 2px; /* Espaçamento entre letras */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra do texto */
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    margin-bottom: 0;
+    padding-bottom: 10px; /* Ajuste de espaçamento */
+}
+
+.custom-btn {
+    background-color: #4CAF50; /* Altere para a cor desejada */
+    color: white; /* Cor do texto */
+}
+
+.custom-btn:hover {
+    background-color: #388E3C; /* Cor ao passar o mouse */
+}
+
+/* Estilo do footer */
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-top {
+    background-color: #000;
+    color: #00a000; /* Detalhe em verde */
+    padding: 15px 0;
+}
+
+.footer-content h5 {
+    color: #00a000; /* Títulos em verde */
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.footer-content a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    color: #00a000; /* Hover em verde */
+}
+
+.footer-content p, .footer-content ul {
+    font-size: 14px;
+}
+
+.footer-content i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #00a000;
+}
+
+.text-center p {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.footer-top h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Estilo do footer */
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-top {
+    background-color: #000;
+    color: #00a000; /* Detalhe em verde */
+    padding: 15px 0;
+}
+
+.footer-content h5 {
+    color: #00a000; /* Títulos em verde */
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.footer-content a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    color: #00a000; /* Hover em verde */
+}
+
+.footer-content p, .footer-content ul {
+    font-size: 14px;
+}
+
+.footer-content i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #00a000;
+}
+
+.text-center p {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.footer-top h3 {
+    font-size: 18px;
+    font-weight: 500;
+}

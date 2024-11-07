@@ -1,0 +1,401 @@
+/* Estilo para o fundo da navbar */
+.navbar {
+    background-color: Black; /* Cor de fundo escura */
+    color:White;
+}
+
+/* Estilo para o nome "Monkey Kush" na navbar */
+.navbar-brand {
+    font-family: 'Poppins', sans-serif; /* Fonte estilosa */
+    font-size: 24px; /* Tamanho do texto */
+    color: White !important; /* Cor branca */
+    font-weight: 500;
+}
+
+.navbar-brand:hover {
+    color: #f1f1f1 !important; /* Ajuste de cor ao passar o mouse */
+}
+
+/* Estilo para os links da navbar */
+.navbar .nav-link,
+.navbar .dropdown-toggle {
+    background-color: #4CAF50; /* Cor de fundo verde igual aos botões */
+    color: white !important;
+    font-family: 'Poppins', sans-serif; /* Aplicando a mesma fonte */
+    padding: 10px 20px;
+    border-radius: 50px; /* Borda arredondada */
+    margin-right: 10px;
+}
+
+.navbar .nav-link:hover,
+.navbar .dropdown-toggle:hover {
+    background-color: #388E3C; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilo para os itens do dropdown */
+.navbar .dropdown-menu {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    border-radius: 10px;
+}
+
+.navbar .dropdown-item {
+    color: white;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif; /* Aplicando a mesma fonte */
+}
+
+.navbar .dropdown-item:hover {
+    background-color: #388E3C;
+    color: white;
+}
+
+/* Estilo para os botões na navbar */
+.botao_navbar {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remove borda */
+    border-radius: 50px; /* Borda arredondada */
+    font-family: 'Poppins', sans-serif; /* Aplicando a mesma fonte */
+    font-size: 16px; /* Tamanho do texto */
+    cursor: pointer; /* Cursor de ponteiro */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Efeito de transição */
+    display: flex; /* Para alinhar ícone e texto */
+    align-items: center;
+    gap: 10px; /* Espaçamento entre ícone e texto */
+    margin-right: 15px; /* Espaçamento à direita */
+}
+
+.botao_navbar:hover {
+    background-color: #388E3C; /* Cor de fundo ao passar o mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efeito de sombra */
+}
+
+.botao_navbar img {
+    width: 24px; /* Tamanho do ícone */
+    height: 24px;
+    border-radius: 50%; /* Ícone redondo (opcional) */
+}
+
+
+/* Estilizando o campo de input de busca */
+form .form-control {
+    border-radius: 50px; /* Bordas arredondadas */
+    border: none; /* Remove a borda padrão */
+    padding: 10px 20px; /* Ajusta o espaçamento interno */
+    background-color: #f5f5f5; /* Fundo cinza claro para o campo */
+    color: #333; /* Cor do texto */
+    font-family: 'Poppins', sans-serif; /* Fonte Poppins */
+    font-size: 16px; /* Tamanho do texto */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ao redor do campo */
+    outline: none; /* Remove o contorno ao focar */
+    width: 250px; /* Largura do campo */
+}
+
+/* Estilo ao focar no campo de busca */
+form .form-control:focus {
+    background-color: white; /* Fundo branco ao focar */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra mais intensa ao focar */
+}
+
+/* Estilizando o botão de "Procurar" */
+form .botao_navbar {
+    border-radius: 50px; /* Bordas arredondadas */
+    background-color: #28a745; /* Mesma cor verde dos botões */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda */
+    padding: 10px 20px; /* Ajusta o espaçamento interno */
+    font-family: 'Poppins', sans-serif; /* Fonte Poppins */
+    font-size: 16px; /* Tamanho do texto */
+    cursor: pointer; /* Mostra o cursor pointer */
+    transition: background-color 0.3s ease; /* Suaviza a transição de cor */
+}
+
+form .botao_navbar:hover {
+    background-color: #218838; /* Cor ligeiramente mais escura ao passar o mouse */
+}
+
+
+/* Estilo para o fundo da página */
+.fundo {
+    background-color: white;
+}
+
+/* Estilo para o título */
+.title {
+    font-family: 'Poppins', sans-serif; /* Aplicando a fonte Poppins */
+    font-size: 3em; /* Tamanho do texto */
+    font-weight: bold; /* Peso da fonte */
+    color: Black; /* Cor do texto em branco */
+    text-align: center; /* Centraliza o texto */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    letter-spacing: 2px; /* Espaçamento entre as letras */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra do texto */
+    padding: 20px; /* Espaçamento interno */
+    background-color: White; /* Fundo preto */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra da caixa */
+    margin-bottom: 0; /* Remove a margem inferior do título */
+    padding-bottom: 10px; /* Opcional: ajuste de espaçamento */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.payment-options, .order-summary {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.payment-options {
+    flex: 1;
+    max-width: 500px;
+}
+
+.order-summary {
+    max-width: 200px;
+}
+
+h2 {
+    font-size: 1.25em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.meli-info {
+    background-color: #e5e5f7;
+    color: #6b4eff;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.combine-payment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 0.9em;
+    color: #333;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+input:checked + .slider {
+    background-color: #4caf50;
+}
+
+input:checked + .slider:before {
+    transform: translateX(20px);
+}
+
+.payment-method {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.payment-method input[type="radio"] {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.payment-method label {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.method-title {
+    font-weight: bold;
+    color: #333;
+}
+
+.method-info, .cashback {
+    font-size: 0.85em;
+    color: #555;
+}
+
+.cashback {
+    color: #4caf50;
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.total {
+    font-weight: bold;
+}
+
+.continue-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.continue-button:hover {
+    background-color: #43a047;
+}
+
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-top {
+    background-color: #000;
+    color: #00a000; /* Detalhe em verde */
+    padding: 15px 0;
+}
+
+.footer-content h5 {
+    color: #00a000; /* Títulos em verde */
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.footer-content a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    color: #00a000; /* Hover em verde */
+}
+
+.footer-content p, .footer-content ul {
+    font-size: 14px;
+}
+
+.footer-content i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #00a000;
+}
+
+.text-center p {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.footer-top h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Estilo para o formulário personalizado */
+/* Ajuste para alinhar inputs em linha */
+/* Ajuste para alinhar o formulário ao centro */
+.form-container {
+    display: flex;
+    justify-content: center; /* Centraliza o formulário horizontalmente */
+    margin-top: 20px; /* Adiciona margem superior */
+}
+
+/* Ajuste para alinhar os inputs em coluna no centro */
+.form-container form {
+    display: flex;
+    flex-direction: column; /* Alinha os inputs verticalmente */
+    align-items: center; /* Centraliza os inputs horizontalmente */
+    gap: 15px; /* Espaçamento entre os inputs */
+}
+
+/* Ajuste para cor e fonte dos rótulos */
+.input-group label {
+    font-family: 'Poppins', sans-serif; /* Aplicando a mesma fonte */
+    color: #00a000; /* Aplicando a mesma cor verde */
+    font-weight: 500; /* Ajuste opcional para peso da fonte */
+    margin-bottom: 5px; /* Espaço abaixo do rótulo */
+}
+
+/* Estilo para os inputs (mantém o que já existe) */
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #4caf50; /* Borda verde */
+    border-radius: 20px; /* Bordas arredondadas */
+    outline: none;
+    background-color: #f9f9f9;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #388e3c; /* Verde mais escuro ao focar */
+}
